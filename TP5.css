@@ -1,0 +1,35 @@
+body{
+    padding: 30px;
+    margin: 30px;
+    background:white
+    @media screen {
+        background: white;        
+    }
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:cyan;
+    background-color: black;
+  }
+  /** for main title **/
+  h4 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:yellow;
+    background-color: green;
+    margin-bottom: 0;
+  }
+  /** for subtitles **/
+  ul, ol {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0; 
+  }
+  /** for page content **/
+#ingredients {
+    background-color: red;
+}
+#equipment {
+    background-color:lime;
+}
+#directions{
+    background-color: yellow;
+}
