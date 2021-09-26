@@ -1,15 +1,12 @@
 body{
     padding: 30px;
     margin: 30px;
-    background:white
-    @media screen {
-        background: white;        
-    }
+    background: lemonchiffon; 
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color:cyan;
-    background-color: black;
+    background-color: rgb(66, 65, 65);
   }
   /** for main title **/
   h4 {
