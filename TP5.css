@@ -1,32 +1,79 @@
-body{
-    padding: 30px;
-    margin: 30px;
-    background: lemonchiffon; 
-}
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color:cyan;
-    background-color: rgb(66, 65, 65);
-  }
-  /** for main title **/
-  h4 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:yellow;
-    background-color: green;
-    margin-bottom: 0;
-  }
-  /** for subtitles **/
-  ul, ol {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 0; 
-  }
-  /** for page content **/
-#ingredients {
-    background-color: red;
+    color:blue;
+    background-color:red;
 }
-#equipment {
-    background-color:lime;
+body {
+   background-color: yellow;
 }
-#directions{
-    background-color: yellow;
+h4 {
+    color:white;
+    background-color: black;
+}
+@media screen and (max-width:500px) {
+    #ingredients{
+        background-color:skyblue;
+    }
+    #equipment{
+        background-color: pink;
+    }
+    #directions{
+        background-color: lime;
+    }
+}
+@media screen and (min-width:501px) and (max-width:768px) {
+    #ingredients{
+        background-color:skyblue;
+    }
+    #equipment{
+        background-color: pink;
+    }
+    #directions{
+        background-color: lime;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #ingredients{
+        background-color:skyblue;
+        width: 30%;
+        height: 500px;
+        float: left;
+        border: 50px;
+    }
+    #equipment{
+        background-color: pink;
+        width: 30%;
+        height: 500px;
+        float: left;
+        border: 50px;
+    }
+    #directions{
+        background-color: lime;
+        width: 30%;
+        float: left;
+        border: 50px;
+    }
+}
+@media screen and (min-width:1025px) {
+    #ingredients{
+        background-color:skyblue;
+        width: 30%;
+        height: 450px;
+        float: left;
+        border: 50px;
+    }
+    #equipment{
+        background-color: pink;
+        width: 30%;
+        height: 450px;
+        float: left;
+        border: 50px;
+    }
+    #directions{
+        background-color: lime;
+        width: 30%;
+        height: 450px;
+        float: left;
+        border: 50px;
+    }
 }
