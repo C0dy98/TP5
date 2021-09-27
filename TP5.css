@@ -11,6 +11,9 @@ h4 {
     color:white;
     background-color: black;
 }
+#ingredients, #equipment, #directions{
+    opacity: .8;
+}
 @media screen and (max-width:500px) {
     #ingredients{
         background-color:skyblue;
